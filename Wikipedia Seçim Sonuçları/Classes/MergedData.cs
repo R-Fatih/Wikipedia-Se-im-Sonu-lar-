@@ -10,10 +10,12 @@ namespace Wikipedia_Seçim_Sonuçları.Classes
 	{
         public string Candidate { get; set; }
         public string Party { get; set; }
+        public string Province { get; set; }
         public string PartyFullName { get; set; }
         public int Votes { get; set; }
         public double Percentage { get; set; }
         public double TotalVotesInCity { get; set; }
+
 
     }
 }
